@@ -308,6 +308,13 @@ header {
   color: #4f4440;
 }
 
+.formation p {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 40px;
+  color: #4f4440;
+}
+
 /* Section Projets */
 #portfolio {
   background-color: #F5F5F7;

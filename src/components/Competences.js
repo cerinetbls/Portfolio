@@ -2,6 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5, faReact } from '@fortawesome/free-brands-svg-icons'; 
 import { faDatabase, faWrench } from '@fortawesome/free-solid-svg-icons'; 
+
 const Competences = () => {
   return (
     <section id="competences">
@@ -38,11 +39,17 @@ const Competences = () => {
           <p><strong>Versioning :</strong> Git et GitHub</p>
         </div>
       </div>
+      <div className="formation">
+          <p><strong>Formation suivie :</strong> Formation en développement web chez 
+            <a href="https://openclassrooms.com/fr/" target="_blank" rel="noopener noreferrer"> OpenClassrooms</a>.
+          </p>
+        </div>
     </section>
   );
 }
 
 export default Competences;
+
 
 
 
